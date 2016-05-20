@@ -1,10 +1,19 @@
 h3 {
-	position: center;
+	text-align: center;
 	font-family: cursive;
 	color: aqua;
+	font-size: 30px;
 }
 
 p {
 	font-family: cursive;
 	color: coral;
+}
+
+a {
+	text-decoration: none;
+	font-family: helvetica;
+	color: black;
+
+
 }
