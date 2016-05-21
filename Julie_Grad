@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-
 <html>
 <head>
-<title>Julie's Graduation</title>
+	<title>Julie Grad</title>
 </head>
-<h1>Congratulations Julie</h1>
-
-
-
+<body>
+<h1>Congratulations Julie!!!</h1>
+<video><source src="https://www.youtube.com/watch?v=HphFPQvAWHY"/></video>
+</body>
 </html>
