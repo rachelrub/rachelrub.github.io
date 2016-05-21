@@ -1,19 +1,25 @@
+body {
+	background-color: #fcdfd7;
+
+}
+
 h3 {
 	text-align: center;
-	font-family: cursive;
-	color: aqua;
+	font-family: Georgia;
+	color: #333333;
 	font-size: 30px;
+	font-style: bold;
+	text-shadow: inherit;
 }
 
 p {
 	font-family: cursive;
-	color: coral;
+	color: #777777;
+	text-align: center;
 }
 
 a {
 	text-decoration: none;
-	font-family: helvetica;
-	color: black;
-
-
+	font-family: Georgia;
+	color: #88d8b0;
 }
