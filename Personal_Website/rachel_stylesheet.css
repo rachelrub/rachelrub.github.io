@@ -1,0 +1,271 @@
+body {
+	text-align: center;
+	height: 100%
+	width: 100%;
+	color: white;
+	background-color: black;
+	font-family: Futura, sans-serif, monospace;
+}
+.leftcol {
+/*	width: 255px;
+	height: 100vh;*/
+	background-color: black;
+	color: white;
+}
+ul {
+	list-style-type: none;
+}
+li {
+	text-align: left;
+	padding: 15px;
+}
+a {
+	text-decoration: none;
+	color: white;
+	margin: 20px;
+	padding: 20px;
+}
+.meme{
+	height: 290px;
+	width: 300px;
+	margin-left: -70px;
+	padding: 0px;
+}
+.cover-pic {
+	height: 100%;
+	width: 100%;
+	display: inline-block;
+	/*position: absolute;*/
+}
+section.maincol {
+    position: absolute;
+    top: 0;
+    left: 255px;
+    bottom: 0;
+    transition: left 0.5s;
+/*    overflow: none;*/
+    /*min-width: 400px;*/
+}
+@media (min-width: 766px){
+		.navbar {
+		display: none;
+	}
+}
+.navbar {
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+@media (max-width: 766px) {
+/*	.main-content {
+		left:-300px;
+		display: inline-block;
+		height: 100%;
+		width: 100%;
+		margin: 0;
+		background-color: red;
+		left: 0px !important;
+	}*/
+	.sidebar-nav {
+		display: none;
+
+	}
+
+	section.maincol {
+    	left: 0px;
+	}
+/*	.leftcol {
+		width: 0;
+	}
+	#wrapper {
+		width: 0;
+	}*/
+	
+}
+
+.sidebar-nav {
+	transition: display .5s;
+}
+.my-fluid-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-right: auto;
+	margin-left: auto;
+	color: white;
+	background-color: black;
+}
+.cape-town {
+	height: 50%;
+	width:50%;
+}
+.hover-facts1 {
+	border: 2px solid #FF04D5;
+	background-color: #FF04D5;
+	top: 35px;
+	left: 400px;
+	height: 200px;
+	width: 200px;
+	position: absolute;
+}
+.imgWrap {
+	position: relative;
+}
+.hover-facts1 {
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	padding-top: 100px;
+	opacity: 0;
+}
+.hover-facts2 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts3 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts4 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts5 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.hover-facts6 {
+	background-color: #FF04D5;
+	border: 2px solid #FF04D5;
+	height: 240px;
+	width: 240px;
+	position: absolute;
+	left: 55px;
+	top: 30px;
+	visibility: hidden;
+	opacity: 0;
+	padding-top: 100px;
+}
+.imgWrap:hover .hover-facts1 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+.imgWrap:hover .hover-facts2 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+.imgWrap:hover .hover-facts3 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+.imgWrap:hover .hover-facts4 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+.imgWrap:hover .hover-facts5 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+.imgWrap:hover .hover-facts6 {
+	visibility: visible;
+	opacity: .8;
+	transition: opacity .3s;
+
+}
+
+a:hover {
+	text-decoration: none;
+	color:#FFCD05;
+}
+object {
+	margin: 30px;
+	padding-top: 20px;
+}
+
+.pics {
+	display: inline-block;
+	height: 300px;
+	width: 300px; 
+	padding:30px;
+	margin-left:25px;
+
+}
+.content {
+	padding-top: 50px;
+	padding-bottom: 70px;
+	border-bottom: 1px white solid
+}
+h1 {
+	padding-top: 30px;
+}
+.clothing-stuff {
+	margin-top: 30px;
+	padding-top: 20px;
+	border-top: 1px solid white;
+}
+.pictures {
+	display: inline-block;
+	margin-top: 40px;
+}
+
+/*p {
+
+}*/
+/*.rotate{
+    -moz-transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    transition: all 2s linear;
+}
+
+.rotate.down{
+    -ms-transform:rotate(180deg);
+    -moz-transform:rotate(180deg);
+    -webkit-transform:rotate(180deg);
+    transform:rotate(180deg);
+}
+*/
+
