@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/rachelLaura.jpg");
+  background-image: url("../img/header.png");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -807,7 +807,8 @@ section#contact {
   background-color: #222222;
   background-image: url("../img/map-image.png");
   background-repeat: no-repeat;
-  background-position: center; }
+  background-position: center;
+  background-size: cover; }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {
@@ -1069,9 +1070,12 @@ ul.social-buttons {
 
 #work {
   padding-top: 25px;
-  background-color: #F8F9FA!important;
+  background-color: #ffffff!important;
 }
 #lead {
+  background-color: #ffffff!important;
+}
+#edu {
   background-color: #F8F9FA!important;
 }
 .row {
@@ -1079,7 +1083,7 @@ ul.social-buttons {
   padding-bottom: 15px;
 }
 .courses {
-  border-right: 1px solid rgba(0,0,0,.1)
+  border-left: 1px solid rgba(0,0,0,.1)
 }
 
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -1110,5 +1114,11 @@ h3.section-subheading.countries {
   background-color: #C09DFF;
   color: #ffffff;
 }
+.location {
+  margin-top: 25px;
+}
       
-
+ul li {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
