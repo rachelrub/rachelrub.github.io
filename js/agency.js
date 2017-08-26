@@ -36,24 +36,5 @@
   });
 
 
-// $(document).ready(function(){       
-//    var scroll_start = 0;
-//    var startchange = $('#mainNav');
-//    var offset = startchange.offset();
-//    $(document).scroll(function() { 
-//       scroll_start = $(this).scrollTop();
-//       if(scroll_start > offset.top) {
-//           $('#mainNav').css('background-color', 'white');
-//           $('#mainNav a').css('color', 'black');
-//           $('#mainNav').css('border-bottom', '1px solid black');
-//        } else {
-//           $('#mainNav').css('background-color', 'transparent');
-//           $('#mainNav a').css('color', 'white');
-//           $('#mainNav').css('border', 'transparent');
-//        }
-//    });
-// });
-
-
 
 })(jQuery); // End of use strict
