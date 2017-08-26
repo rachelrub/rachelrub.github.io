@@ -61,7 +61,8 @@ body {
   -webkit-tap-highlight-color: #ffffff; }
 
 #mainNav {
-  background-color: #222222; }
+  background-color: #222222;
+  }
   #mainNav .navbar-toggler {
     font-size: 12px;
     right: 0;
@@ -115,7 +116,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header.png");
+  background-image: url("../img/capetownFull.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -164,13 +165,18 @@ header.masthead {
 
 #travel .portfolio-item {
   right: 0;
-  margin: 0 0 15px; }
+  margin: 0 0 15px;
+}
   #travel .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
-    cursor: pointer; }
+    cursor: pointer; 
+    }
+    #travel .portfolio-item .portfolio-link .img-fluid {
+      border-radius: 3% 3% 0 0;
+    }
     #travel .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
       width: 100%;
@@ -179,7 +185,8 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(192, 157, 255, 0.9); }
+      background: rgba(192, 157, 255, 0.9);
+      border-radius: 3% 3% 0 0; }
       #travel .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #travel .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -201,7 +208,8 @@ header.masthead {
     margin: 0 auto;
     padding: 25px;
     text-align: center;
-    background-color: white; }
+    background-color: white;
+    border-radius: 0 0 3% 3%; }
     #travel .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -1083,9 +1091,45 @@ ul.social-buttons {
   padding-bottom: 15px;
 }
 .courses {
-  border-left: 1px solid rgba(0,0,0,.1)
-}
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 3%;
 
+}
+.skillsLang {
+  background-color: #ffffff;
+  padding: 15px;
+  border-radius: 3%;
+}
+.skillsLang:hover .text-muted {
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+  color: black!important;
+
+}
+.skillsLang:hover {
+  background: rgba(192, 157, 255, 0.9);
+  -webkit-transition: all ease 0.5s;
+  -moz-transition: all ease 0.5s;
+  transition: all ease 0.5s;
+
+}
+.courses:hover .text-muted {
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+transition: all ease 0.5s;
+color: black!important;
+
+}
+.courses:hover {
+background: rgba(192, 157, 255, 0.9);
+-webkit-transition: all ease 0.5s;
+-moz-transition: all ease 0.5s;
+transition: all ease 0.5s;
+color: black!important;
+
+}
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
     color: #C09DFF;
 }
@@ -1122,3 +1166,19 @@ ul li {
   margin-top: 10px;
   margin-bottom: 10px;
 }
+
+.bg-post-work {
+  background-image: url(../pics/IMG_2037.JPG);
+}
+.bg-post-edu {
+  background-image: url(../pics/IMG_5683.JPG);
+}
+.bg-fixed {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: top center;
+  background-repeat: no-repeat;
+}
+.most-height {
+    height: 450px;
+  }
