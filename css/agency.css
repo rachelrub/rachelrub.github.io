@@ -1,7 +1,7 @@
 /*!
  * Start Bootstrap - Agency v4.0.0-alpha (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2017 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-agency/blob/master/LICENSE)
+ * Licensed under MIT (https://github.com/#222222rockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
 body {
   overflow-x: hidden;
@@ -13,7 +13,8 @@ p {
 a {
   color: #ffffff; }
   a.active, a:active, a:hover {
-    color: #C09DFF; }
+    color: #C09DFF; 
+    text-decoration: none;}
 
 h1,
 h2,
@@ -69,7 +70,7 @@ body {
     right: 0;
     padding: 10px;
     text-transform: uppercase;
-    color: #C09DFF;
+    color: #222222;
     border: 0;
     background-color: #ffffff;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -77,7 +78,7 @@ body {
     /*border: 1px solid #C09DFF;*/
     }
   #mainNav .navbar-brand {
-    color: black;
+    color: #222222;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #C09DFF; }
@@ -86,7 +87,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: black;
+    color: #222222;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -103,9 +104,9 @@ body {
     background-color: transparent; }
     #mainNav .navbar-brand {
       font-size: 1.75em;
-      -webkit-transition: all 0.3s;
-      -moz-transition: all 0.3s;
-      transition: all 0.3s; 
+      -webkit-transition: all 0.2s;
+      -moz-transition: all 0.2s;
+      transition: all 0.2s; 
       color: #ffffff;}
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; 
@@ -114,7 +115,7 @@ body {
       padding-top: 0;
       padding-bottom: 0;
       background-color: #222222;
-      color: black!important; }
+      color: #222222!important; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
         padding: 12px 0; } }
@@ -137,8 +138,8 @@ header.masthead {
 
   }
   header.masthead .intro-text {
-    padding-top: 150px;
-    padding-bottom: 100px; }
+    padding-top: 0px;
+    padding-bottom: 450px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -155,8 +156,8 @@ header.masthead {
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
-    padding-top: 300px;
-    padding-bottom: 200px; }
+    padding-top: 350px;
+    padding-bottom: 250px; }
     header.masthead .intro-text .intro-lead-in {
       font-size: 40px;
       font-style: italic;
@@ -503,7 +504,7 @@ header.masthead {
       padding: 0 30px 20px 20px;
       text-align: left; } 
 .SyndioLogo {
-    width: 100px;
+    width: 75px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -514,7 +515,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 100px;
+    width: 75px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -524,7 +525,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -535,7 +536,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -545,7 +546,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -555,7 +556,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -565,7 +566,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -575,7 +576,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -585,7 +586,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 100px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -611,7 +612,7 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } 
 .SyndioLogo {
-    width: 150px;
+    width: 125px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -622,7 +623,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 150px;
+    width: 125px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -632,7 +633,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -643,7 +644,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -653,7 +654,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -663,7 +664,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -673,7 +674,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -683,7 +684,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -693,7 +694,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 150px;
+    width: 125px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -717,7 +718,7 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } 
 .SyndioLogo {
-    width: 170px;
+    width: 140px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -728,7 +729,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 170px;
+    width: 140px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -738,7 +739,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -749,7 +750,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -759,7 +760,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -769,7 +770,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -779,7 +780,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -789,7 +790,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -799,7 +800,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 170px;
+    width: 140px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -1106,19 +1107,21 @@ ul.social-buttons {
   background-color: #ffffff;
   padding: 15px;
   border-radius: 3%;
-  height: 100%;
+  margin-bottom: 15px;
 
 }
 .skillsLang {
   background-color: #ffffff;
   padding: 15px;
   border-radius: 3%;
+
+  margin-bottom: 15px;
 }
 .skillsLang:hover .text-muted {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  color: black!important;
+  color: #222222!important;
 
 }
 .skillsLang:hover {
@@ -1132,7 +1135,7 @@ ul.social-buttons {
 -webkit-transition: all ease 0.5s;
 -moz-transition: all ease 0.5s;
 transition: all ease 0.5s;
-color: black!important;
+color: #222222!important;
 
 }
 .courses:hover {
@@ -1140,7 +1143,7 @@ background: rgba(192, 157, 255, 0.9);
 -webkit-transition: all ease 0.5s;
 -moz-transition: all ease 0.5s;
 transition: all ease 0.5s;
-color: black!important;
+color: #222222!important;
 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -1200,7 +1203,7 @@ ul li {
     height: 450px;
   }
 #mainNav.navbar-shrink {
-  color: black;
+  color: #222222;
   background-color: white;
   border-bottom: 1px solid #585858;
 }
@@ -1211,10 +1214,10 @@ ul li {
   letter-spacing: 1px;
   font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   text-transform: uppercase; 
-  color: black;
+  color: #222222;
 }
 #mainNav.navbar-shrink .navbar-brand {
-  color: black;
+  color: #222222;
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
@@ -1236,4 +1239,16 @@ ul li {
 }
 .btn:hover {
   border-color: #C09DFF;
+}
+.section-subheading {
+  color: #ffffff!important;
+  text-align: center;
+  font-size: 18px;
+}
+
+@media (max-width: 768px) {
+  .section-subheading {
+  font-size: 14px;
+}
+  
 }
