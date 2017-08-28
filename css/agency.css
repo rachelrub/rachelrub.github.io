@@ -12,7 +12,7 @@ p {
 
 a {
   color: #ffffff; }
-  a.active, a:active, a:focus, a:hover {
+  a.active, a:active, a:hover {
     color: #C09DFF; }
 
 h1,
@@ -61,20 +61,23 @@ body {
   -webkit-tap-highlight-color: #ffffff; }
 
 #mainNav {
-  background-color: #222222;
+  background-color: #ffffff;
+  border-bottom: 1px solid #585858;
   }
   #mainNav .navbar-toggler {
-    font-size: 12px;
+    font-size: 18px;
     right: 0;
-    padding: 13px;
+    padding: 10px;
     text-transform: uppercase;
     color: #C09DFF;
     border: 0;
     background-color: #ffffff;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    text-transform: uppercase; 
+    /*border: 1px solid #C09DFF;*/
+    }
   #mainNav .navbar-brand {
-    color: #ffffff;
+    color: black;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #C09DFF; }
@@ -83,7 +86,7 @@ body {
     font-weight: 400;
     padding: 0.75em 0;
     letter-spacing: 1px;
-    color: white;
+    color: black;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
@@ -102,9 +105,11 @@ body {
       font-size: 1.75em;
       -webkit-transition: all 0.3s;
       -moz-transition: all 0.3s;
-      transition: all 0.3s; }
+      transition: all 0.3s; 
+      color: #ffffff;}
     #mainNav .navbar-nav .nav-item .nav-link {
-      padding: 1.1em 1em !important; }
+      padding: 1.1em 1em !important; 
+      color: #ffffff;}
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
@@ -1101,6 +1106,7 @@ ul.social-buttons {
   background-color: #ffffff;
   padding: 15px;
   border-radius: 3%;
+  height: 100%;
 
 }
 .skillsLang {
@@ -1166,6 +1172,9 @@ h3.section-subheading.countries {
   background-color: #C09DFF;
   color: #ffffff;
 }
+#mainNav .navbar-toggler:focus {
+  outline: none;
+}
 .location {
   margin-top: 25px;
 }
@@ -1213,4 +1222,18 @@ ul li {
 }
 #mainNav.navbar-shrink .navbar-brand.active, #mainNav.navbar-shrink .navbar-brand:active, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
     color: #C09DFF;
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+.btn-circle {
+  border: 2px solid white;
+  border-radius: 100%;
+  font-size: 37px;
+  padding: 1rem 2rem;
+  line-height: 1.5;
+}
+.btn:hover {
+  border-color: #C09DFF;
 }
