@@ -3,18 +3,23 @@
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/#222222rockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
+ @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 p {
-  line-height: 1.75; }
+  line-height: 1.75; 
+  font-size: 14px;}
 
 a {
   color: #ffffff; }
   a.active, a:active, a:hover {
     color: #C09DFF; 
     text-decoration: none;}
+ul {
+  font-size: 14px;
+}
 
 h1,
 h2,
@@ -23,7 +28,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
 
 section {
@@ -38,7 +43,7 @@ section {
     font-style: italic;
     margin-bottom: 75px;
     text-transform: none;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 @media (min-width: 768px) {
   section {
@@ -63,7 +68,7 @@ body {
 
 #mainNav {
   background-color: #ffffff;
-  border-bottom: 1px solid #585858;
+/*  border-bottom: 1px solid #585858;*/
   }
   #mainNav .navbar-toggler {
     font-size: 18px;
@@ -73,13 +78,13 @@ body {
     color: #222222;
     border: 0;
     background-color: #ffffff;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; 
     /*border: 1px solid #C09DFF;*/
     }
   #mainNav .navbar-brand {
     color: #222222;
-    font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
+    font-family: "Source Sans Pro", Helvetica, sans-serif; }
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #C09DFF; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -88,7 +93,7 @@ body {
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: #222222;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #ffffff; }
@@ -123,7 +128,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/capetownFull.jpg");
+  background-image: url("../img/header2.jpg");
   background-repeat: no-repeat;
   /*background-attachment: scroll;
   background-position: center center;
@@ -145,13 +150,13 @@ header.masthead {
       font-style: italic;
       line-height: 22px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: "Source Sans Pro", Helvetica, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 50px;
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: "Source Sans Pro", Helvetica, sans-serif;
       text-transform: uppercase; }
 
 @media (min-width: 768px) {
@@ -163,18 +168,76 @@ header.masthead {
       font-style: italic;
       line-height: 40px;
       margin-bottom: 25px;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: "Source Sans Pro", Helvetica, sans-serif; }
     header.masthead .intro-text .intro-heading {
       font-size: 75px;
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-family: "Source Sans Pro", Helvetica, sans-serif;
       text-transform: uppercase; } }
 
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+#projects .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+  #projects .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; 
+    }
+    #projects .portfolio-item .portfolio-link .img-fluid {
+      border-radius: 3% 3% 0 0;
+    }
+    #projects .portfolio-item .portfolio-link .portfolio-hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(192, 157, 255, 0.9);
+      border-radius: 3% 3% 0 0; }
+      #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
+        opacity: 1; }
+      #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: white; }
+        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  #projects .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0 0 3% 3%; }
+    #projects .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #projects .portfolio-item .portfolio-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: "Source Sans Pro", Helvetica, sans-serif; }
+
+#projects * {
+  z-index: 2; }
 
 #travel .portfolio-item {
   right: 0;
@@ -188,7 +251,7 @@ header.masthead {
     cursor: pointer; 
     }
     #travel .portfolio-item .portfolio-link .img-fluid {
-      border-radius: 3% 3% 0 0;
+      border-radius: 3%;
     }
     #travel .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
@@ -199,7 +262,7 @@ header.masthead {
       transition: all ease 0.5s;
       opacity: 0;
       background: rgba(192, 157, 255, 0.9);
-      border-radius: 3% 3% 0 0; }
+      border-radius: 3%; }
       #travel .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #travel .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -222,7 +285,7 @@ header.masthead {
     padding: 25px;
     text-align: center;
     background-color: white;
-    border-radius: 0 0 3% 3%; }
+    border-radius: 3%; }
     #travel .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -230,7 +293,7 @@ header.masthead {
       font-size: 16px;
       font-style: italic;
       margin: 0;
-      font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+      font-family: "Source Sans Pro", Helvetica, sans-serif; }
 
 #travel * {
   z-index: 2; }
@@ -262,7 +325,7 @@ header.masthead {
     font-size: 16px;
     font-style: italic;
     margin: 20px 0 30px;
-    font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    font-family: "Source Sans Pro", Helvetica, sans-serif; }
   .portfolio-modal .modal-content ul.list-inline {
     margin-top: 0;
     margin-bottom: 30px; }
@@ -387,7 +450,7 @@ header.masthead {
     margin-bottom: 0; }
   
 .SyndioLogo {
-    width: 80px;
+    width: 70px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -398,7 +461,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 80px;
+    width: 70px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -408,7 +471,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -419,7 +482,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -429,7 +492,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -439,7 +502,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -449,7 +512,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -459,7 +522,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -469,7 +532,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 80px;
+    width: 70px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -612,7 +675,7 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 20px 20px; } 
 .SyndioLogo {
-    width: 125px;
+    width: 75px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -623,7 +686,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 125px;
+    width: 75px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -633,7 +696,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -644,7 +707,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -654,7 +717,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -664,7 +727,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -674,7 +737,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -684,7 +747,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -694,7 +757,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 125px;
+    width: 75px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -718,7 +781,7 @@ header.masthead {
     .timeline > li.timeline-inverted > .timeline-panel {
       padding: 0 100px 20px 20px; } 
 .SyndioLogo {
-    width: 140px;
+    width: 80px;
     padding-right: 0; 
     height: auto;
     margin-left: 0;
@@ -729,7 +792,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .NyuLogo {
-    width: 140px;
+    width: 80px;
     height: auto;
     margin-left: 0;
     text-align: center;
@@ -739,7 +802,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .FunzingLogo {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -750,7 +813,7 @@ header.masthead {
     background-color: #ffffff;
 }
 .IsoflowLogo {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -760,7 +823,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .iXLogo {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -770,7 +833,7 @@ header.masthead {
     border-radius: 50%;
 }
 .StartupSociety {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -780,7 +843,7 @@ header.masthead {
     border-radius: 50%;
 }
 .Kinetic {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0;
     margin-left: 0;
@@ -790,7 +853,7 @@ header.masthead {
     border-radius: 50%; 
 }
 .Hillel {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -800,7 +863,7 @@ header.masthead {
     border-radius: 50%;
 }
 .LSRHS {
-    width: 140px;
+    width: 80px;
     height: auto;
     padding-right: 0; 
     margin-left: 0;
@@ -826,10 +889,7 @@ header.masthead {
 
 section#contact {
   background-color: #222222;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover; }
+  }
   section#contact .section-heading {
     color: white; }
   section#contact .form-group {
@@ -847,36 +907,40 @@ section#contact {
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 18- */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 19+ */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
     color: #e74c3c; }
 
 footer {
   padding: 25px 0;
-  text-align: center; }
+  text-align: center; 
+  background-image: url("../img/map-image.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;}
   footer span.copyright {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase;
     color: #ffffff; }
   footer ul.quicklinks {
@@ -884,7 +948,7 @@ footer {
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
 
 ul.social-buttons {
@@ -913,7 +977,7 @@ ul.social-buttons {
   color: white;
   border-color: #ffffff;
   background-color: #ffffff;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
@@ -956,7 +1020,7 @@ ul.social-buttons {
   color: #C09DFF;
   border-color: #ffffff;
   background-color: #ffffff;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
@@ -1091,10 +1155,10 @@ ul.social-buttons {
 
 #work {
   padding-top: 25px;
-  background-color: #ffffff!important;
+  background-color: #F8F9FA!important;
 }
 #lead {
-  background-color: #ffffff!important;
+  background-color: #F8F9FA!important;
 }
 #edu {
   background-color: #F8F9FA!important;
@@ -1105,16 +1169,15 @@ ul.social-buttons {
 }
 .courses {
   background-color: #ffffff;
-  padding: 15px;
+
   border-radius: 3%;
   margin-bottom: 15px;
 
 }
 .skillsLang {
   background-color: #ffffff;
-  padding: 15px;
-  border-radius: 3%;
 
+  border-radius: 3%;
   margin-bottom: 15px;
 }
 .skillsLang:hover .text-muted {
@@ -1154,7 +1217,8 @@ footer {
   background-color: #222222;
 }
 .logo {
-  text-align: center;
+  text-align: right;
+  padding-right: 60px;
 }
 h4 {
   text-transform: none;
@@ -1191,7 +1255,7 @@ ul li {
   background-image: url(../pics/IMG_2037.JPG);
 }
 .bg-post-edu {
-  background-image: url(../pics/rachItalyt.jpg);
+  background-image: url(../img/capetownFull.jpg);
 }
 .bg-fixed {
   background-attachment: fixed;
@@ -1205,14 +1269,14 @@ ul li {
 #mainNav.navbar-shrink {
   color: #222222;
   background-color: white;
-  border-bottom: 1px solid #585858;
+/*  border-bottom: 1px solid #585858;*/
 }
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
   font-size: 90%;
   font-weight: 400;
   padding: 0.75em 0;
   letter-spacing: 1px;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; 
   color: #222222;
 }
@@ -1230,12 +1294,15 @@ ul li {
     outline: 0;
     box-shadow: 0 0 0 0;
 }
+
 .btn-circle {
-  border: 2px solid white;
-  border-radius: 100%;
-  font-size: 37px;
-  padding: 1rem 2rem;
-  line-height: 1.5;
+    border: 2px solid white;
+    border-radius: 100%;
+    font-size: 30px;
+    padding: .2rem 1rem;
+    line-height: 1.5;
+    margin-bottom: 50px;
+    margin-top: -45px;
 }
 .btn:hover {
   border-color: #C09DFF;
@@ -1252,3 +1319,45 @@ ul li {
 }
   
 }
+.work{
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+.school{
+    background-color: #ffffff;
+    border-radius: 3%;
+}
+.resume {
+  text-align: center;
+}
+.resume button{
+  text-align: center;
+  height: 40px;
+  width: 120px;
+  background-color: #C09DFF;
+  border:none;
+  border-radius: 3%;
+}
+.resume button a:hover{
+  color:white;
+}
+.resume:hover button{
+  background-color: white;
+  transition-duration: .2s;
+
+}
+.resume:hover button a{
+  color: #C09DFF;
+  transition-duration: .2s;
+
+}
+button.active button:hover {
+  background-color: white;
+  transition-duration: .2s;
+}
+button:focus {
+  outline: none;
+}
+
+
+
