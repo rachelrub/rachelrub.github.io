@@ -1358,6 +1358,14 @@ button.active button:hover {
 button:focus {
   outline: none;
 }
+.portfolio-modal .modal-content a {
+  color:#222222;
+  margin-top: -25px;
+  padding-bottom: 25px;
+}
+.portfolio-modal .modal-content a:hover, .portfolio-modal .modal-content a:focus {
+  color: #C09DFF;
+}
 
 
 
