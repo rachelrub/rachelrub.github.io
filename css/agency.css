@@ -1322,10 +1322,12 @@ ul li {
 .work{
     background-color: #ffffff;
     border-radius: 3%;
+    padding-left: 15px;
 }
 .school{
     background-color: #ffffff;
     border-radius: 3%;
+    padding-left: 15px;
 }
 .resume {
   text-align: center;
@@ -1342,12 +1344,12 @@ ul li {
   color:white;
 }
 .resume:hover button{
-  background-color: white;
+  background-color: #a88be0;
   transition-duration: .2s;
 
 }
 .resume:hover button a{
-  color: #C09DFF;
+  color: white;
   transition-duration: .2s;
 
 }
@@ -1366,6 +1368,11 @@ button:focus {
 .portfolio-modal .modal-content a:hover, .portfolio-modal .modal-content a:focus {
   color: #C09DFF;
 }
-
+.col-2 {
+  padding-left:0px;
+}
+.right {
+  text-align: right;
+}
 
 
