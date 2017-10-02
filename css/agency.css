@@ -4,6 +4,8 @@
  * Licensed under MIT (https://github.com/#222222rockDigital/startbootstrap-agency/blob/master/LICENSE)
  */
  @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,400italic");
+ @import url("https://fonts.googleapis.com/css?family=Cookie");
+
 body {
   overflow-x: hidden;
   font-family: "Source Sans Pro", Helvetica, sans-serif; }
@@ -82,9 +84,7 @@ body {
     text-transform: uppercase; 
     /*border: 1px solid #C09DFF;*/
     }
-  #mainNav .navbar-brand {
-    color: #222222;
-    font-family: "Source Sans Pro", Helvetica, sans-serif; }
+
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
       color: #C09DFF; }
   #mainNav .navbar-nav .nav-item .nav-link {
@@ -97,7 +97,10 @@ body {
     text-transform: uppercase; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #ffffff; }
-
+#mainNav .navbar-brand {
+    color: #222222;
+    font-family: 'Cookie', cursive;
+    font-size: 100%; }
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -975,8 +978,8 @@ ul.social-buttons {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #ffffff;
-  background-color: #ffffff;
+  border-color: #C09DFF;
+  background-color: #C09DFF;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
@@ -1006,8 +1009,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #ffffff;
-    background-color: #ffffff; }
+    border-color: #C09DFF;
+    background-color: #C09DFF; }
   .btn-primary .badge {
     color: #ffffff;
     background-color: white; }
@@ -1336,20 +1339,23 @@ ul li {
   text-align: center;
   height: 40px;
   width: 120px;
+  color: white;
   background-color: #C09DFF;
   border:none;
   border-radius: 3%;
 }
 .resume button a:hover{
-  color:white;
+  color: #C09DFF;
 }
 .resume:hover button{
-  background-color: #a88be0;
+  /*background-color: #a88be0;*/
+  background-color:transparent;
   transition-duration: .2s;
+  color: #C09DFF;
 
 }
 .resume:hover button a{
-  color: white;
+  color: #C09DFF;
   transition-duration: .2s;
 
 }
