@@ -15,9 +15,9 @@ p {
   font-size: 14px;}
 
 a {
-  color: #ffffff; }
+  color: #222222; }
   a.active, a:active, a:hover {
-    color: #C09DFF; 
+    color: #D56375; 
     text-decoration: none;}
 ul {
   font-size: 14px;
@@ -36,9 +36,11 @@ h6 {
 section {
 /*  padding: 100px 0; */}
   section h2.section-heading {
-    font-size: 40px;
+    font-size: 25px;
+    font-family: 'Arial Black', sans-serif;
     margin-top: 0;
-    margin-bottom: 15px; }
+    margin-bottom: 15px; 
+    color: #222222;}
   section h3.section-subheading {
     font-size: 16px;
     font-weight: 400;
@@ -82,11 +84,11 @@ body {
     background-color: #ffffff;
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; 
-    /*border: 1px solid #C09DFF;*/
+    /*border: 1px solid #D56375;*/
     }
 
     #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-      color: #C09DFF; }
+      color: #D56375; }
   #mainNav .navbar-nav .nav-item .nav-link {
     font-size: 90%;
     font-weight: 400;
@@ -99,7 +101,7 @@ body {
       color: #ffffff; }
 #mainNav .navbar-brand {
     color: #222222;
-    font-family: 'Cookie', cursive;
+    font-family: 'Arial Black', sans-serif;
     font-size: 100%; }
 @media (min-width: 992px) {
   #mainNav {
@@ -115,10 +117,10 @@ body {
       -webkit-transition: all 0.2s;
       -moz-transition: all 0.2s;
       transition: all 0.2s; 
-      color: #ffffff;}
+      color: #9C2538;}
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; 
-      color: #ffffff;}
+      color: #9C2538;}
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
@@ -131,7 +133,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header2.jpg");
+  background-image: url("../img/background1.jpg");
   background-repeat: no-repeat;
   /*background-attachment: scroll;
   background-position: center center;
@@ -147,7 +149,20 @@ header.masthead {
   }
   header.masthead .intro-text {
     padding-top: 0px;
-    padding-bottom: 300px; }
+    padding-bottom: 300px; 
+    font-size: 45px;
+    color:#D56375;
+    font-family: 'Arial Black', sans-serif;
+  }
+
+
+    header.masthead .intro-text .intro-body {
+      font-size:25px;
+      color:#C49405;
+      text-transform: uppercase; 
+      font-family: "Source Sans Pro", Helvetica, sans-serif;
+    }
+
     header.masthead .intro-text .intro-lead-in {
       font-size: 22px;
       font-style: italic;
@@ -160,7 +175,8 @@ header.masthead {
       line-height: 50px;
       margin-bottom: 25px;
       font-family: "Source Sans Pro", Helvetica, sans-serif;
-      text-transform: uppercase; }
+      /*text-transform: uppercase; */
+    }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -183,6 +199,68 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
+#projects2 .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+  #projects2 .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer; 
+    }
+    #projects2 .portfolio-item .portfolio-link .img-fluid {
+
+    }
+    #projects2 .portfolio-item .portfolio-link .portfolio-hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(213, 99, 117, 0.9);
+      border-radius: 0; }
+      #projects2 .portfolio-item .portfolio-link .portfolio-hover:hover {
+        opacity: 1; }
+      #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: white; }
+        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  #projects2 .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0; }
+    #projects2 .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #projects2 .portfolio-item .portfolio-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: "Source Sans Pro", Helvetica, sans-serif; }
+
+#projects2 * {
+  z-index: 2; }
+
+
+
+
 #projects .portfolio-item {
   right: 0;
   margin: 0 0 15px;
@@ -195,7 +273,7 @@ header.masthead {
     cursor: pointer; 
     }
     #projects .portfolio-item .portfolio-link .img-fluid {
-      border-radius: 3% 3% 0 0;
+
     }
     #projects .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
@@ -205,8 +283,8 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(192, 157, 255, 0.9);
-      border-radius: 3% 3% 0 0; }
+      background: rgba(213, 99, 117, 0.9);
+      border-radius: 0; }
       #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -229,7 +307,7 @@ header.masthead {
     padding: 25px;
     text-align: center;
     background-color: white;
-    border-radius: 0 0 3% 3%; }
+    border-radius: 0; }
     #projects .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -254,7 +332,7 @@ header.masthead {
     cursor: pointer; 
     }
     #travel .portfolio-item .portfolio-link .img-fluid {
-      border-radius: 3%;
+      border-radius: 0;
     }
     #travel .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
@@ -264,8 +342,8 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgba(192, 157, 255, 0.9);
-      border-radius: 3%; }
+      background: rgba(213, 99, 117, 0.9);
+      border-radius: 0; }
       #travel .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #travel .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
@@ -288,7 +366,7 @@ header.masthead {
     padding: 25px;
     text-align: center;
     background-color: white;
-    border-radius: 3%; }
+    border-radius: 0; }
     #travel .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
@@ -385,7 +463,7 @@ header.masthead {
     width: 2px;
     margin-left: -1.5px;
     content: '';
-    background-color: #C09DFF; }
+    background-color: #D56375; }
   .timeline > li {
     position: relative;
     min-height: 50px;
@@ -420,7 +498,7 @@ header.masthead {
       margin-left: 0;
       text-align: center;
       color: white;
-      border: 7px solid #C09DFF;
+      border: 7px solid #D56375;
       border-radius: 100%;
       background-color: #ffffff; }
       .timeline > li .timeline-image h4 {
@@ -459,7 +537,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -469,7 +547,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -480,7 +558,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
     background-color: #ffffff;
 }
@@ -491,7 +569,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .iXLogo {
@@ -501,7 +579,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .StartupSociety {
@@ -511,7 +589,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .Kinetic {
@@ -521,7 +599,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .Hillel {
@@ -531,7 +609,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .LSRHS {
@@ -541,7 +619,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 
@@ -576,7 +654,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -586,7 +664,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -597,7 +675,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
     background-color: #ffffff;
 }
@@ -608,7 +686,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .iXLogo {
@@ -618,7 +696,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .StartupSociety {
@@ -628,7 +706,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .Kinetic {
@@ -638,7 +716,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .Hillel {
@@ -648,7 +726,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .LSRHS {
@@ -658,7 +736,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }}
 
@@ -684,7 +762,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -694,7 +772,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -705,7 +783,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
     background-color: #ffffff;
 }
@@ -716,7 +794,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .iXLogo {
@@ -726,7 +804,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .StartupSociety {
@@ -736,7 +814,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .Kinetic {
@@ -746,7 +824,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .Hillel {
@@ -756,7 +834,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .LSRHS {
@@ -766,7 +844,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }}
 
@@ -790,7 +868,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -800,7 +878,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -811,7 +889,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
     background-color: #ffffff;
 }
@@ -822,7 +900,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .iXLogo {
@@ -832,7 +910,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .StartupSociety {
@@ -842,7 +920,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .Kinetic {
@@ -852,7 +930,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .Hillel {
@@ -862,7 +940,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .LSRHS {
@@ -872,7 +950,7 @@ header.masthead {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }}
 
@@ -891,10 +969,10 @@ header.masthead {
     margin-top: 0; }
 
 section#contact {
-  background-color: #222222;
+  background-color: #ffffff;
   }
   section#contact .section-heading {
-    color: white; }
+  }
   section#contact .form-group {
     margin-bottom: 25px; }
     section#contact .form-group input,
@@ -930,12 +1008,12 @@ section#contact {
     font-family: "Source Sans Pro", Helvetica, sans-serif;
     text-transform: uppercase; }
   section#contact .text-danger {
-    color: #e74c3c; }
+    color: #eeeeee; }
 
 footer {
   padding: 25px 0;
   text-align: center; 
-  background-image: url("../img/map-image.png");
+  background-image: url("../img/background2.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;}
@@ -970,7 +1048,8 @@ ul.social-buttons {
     outline: none;
     background-color: #ffffff; }
     ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons li a:hover {
-      background-color: #C09DFF; }
+      background-color: #D56375;
+      color: #fff; }
 
 .text-primary {
   color: #ffffff !important; }
@@ -978,23 +1057,23 @@ ul.social-buttons {
 .btn-primary {
   font-weight: 700;
   color: white;
-  border-color: #C09DFF;
-  background-color: #C09DFF;
+  border-color: #D56375;
+  background-color: #D56375;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: #b48b01;
-    background-color: #C09DFF; }
+    background-color: #D56375; }
   .btn-primary:hover {
     color: white;
     border-color: #f6bf01;
-    background-color: #C09DFF; }
+    background-color: #D56375; }
   .btn-primary.active, .btn-primary:active,
   .open > .btn-primary.dropdown-toggle {
     color: white;
     border-color: #f6bf01;
-    background-color: #C09DFF; }
+    background-color: #D56375; }
     .btn-primary.active.focus, .btn-primary.active:focus, .btn-primary.active:hover, .btn-primary:active.focus, .btn-primary:active:focus, .btn-primary:active:hover,
     .open > .btn-primary.dropdown-toggle.focus,
     .open > .btn-primary.dropdown-toggle:focus,
@@ -1009,8 +1088,8 @@ ul.social-buttons {
   fieldset[disabled] .btn-primary.focus,
   fieldset[disabled] .btn-primary:focus,
   fieldset[disabled] .btn-primary:hover {
-    border-color: #C09DFF;
-    background-color: #C09DFF; }
+    border-color: #D56375;
+    background-color: #D56375; }
   .btn-primary .badge {
     color: #ffffff;
     background-color: white; }
@@ -1020,33 +1099,33 @@ ul.social-buttons {
   font-weight: 700;
   padding: 20px 40px;
   border-radius: 3px;
-  color: #C09DFF;
+  color: #D56375;
   border-color: #ffffff;
   background-color: #ffffff;
   font-family: "Source Sans Pro", Helvetica, sans-serif;
   text-transform: uppercase; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
-    border-color: #C09DFF;
-    background-color: #C09DFF; }
+    border-color: #D56375;
+    background-color: #D56375; }
   .btn-xl:hover {
     color: white;
-    border-color: #C09DFF;
-    background-color: #C09DFF;
+    border-color: #D56375;
+    background-color: #D56375;
     color: #ffffff; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     color: white;
-    border-color: #C09DFF;
-    background-color: #C09DFF;
+    border-color: #D56375;
+    background-color: #D56375;
     color: #ffffff; }
     .btn-xl.active.focus, .btn-xl.active:focus, .btn-xl.active:hover, .btn-xl:active.focus, .btn-xl:active:focus, .btn-xl:active:hover,
     .open > .btn-xl.dropdown-toggle.focus,
     .open > .btn-xl.dropdown-toggle:focus,
     .open > .btn-xl.dropdown-toggle:hover {
       color: white;
-      border-color: #C09DFF;
-      background-color: #C09DFF; }
+      border-color: #D56375;
+      background-color: #D56375; }
   .btn-xl.active, .btn-xl:active,
   .open > .btn-xl.dropdown-toggle {
     background-image: none; }
@@ -1070,7 +1149,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -1080,7 +1159,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
     background-color: #ffffff;
 }
@@ -1091,7 +1170,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
     background-color: #ffffff;
 }
@@ -1102,7 +1181,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .iXLogo {
@@ -1112,7 +1191,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .StartupSociety {
@@ -1122,7 +1201,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .Kinetic {
@@ -1132,7 +1211,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%; 
 }
 .Hillel {
@@ -1142,7 +1221,7 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 .LSRHS {
@@ -1152,19 +1231,19 @@ ul.social-buttons {
     margin-left: 0;
     text-align: center;
     color: white;
-    border: 7px solid #C09DFF;
+    border: 7px solid #D56375;
     border-radius: 50%;
 }
 
 #work {
   padding-top: 25px;
-  background-color: #F8F9FA!important;
+  background-color: #fff!important;
 }
 #lead {
-  background-color: #F8F9FA!important;
+  background-color: #fff!important;
 }
 #edu {
-  background-color: #F8F9FA!important;
+  background-color: #fff!important;
 }
 .row {
   padding-top: 15px;
@@ -1187,11 +1266,11 @@ ul.social-buttons {
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
-  color: #222222!important;
+  /*color: #222222!important;*/
 
 }
 .skillsLang:hover {
-  background: rgba(192, 157, 255, 0.9);
+  background: rgba(213, 99, 117, 0.9);
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
   transition: all ease 0.5s;
@@ -1201,7 +1280,7 @@ ul.social-buttons {
 -webkit-transition: all ease 0.5s;
 -moz-transition: all ease 0.5s;
 transition: all ease 0.5s;
-color: #222222!important;
+/*color: #222222!important;*/
 
 }
 .courses:hover {
@@ -1213,7 +1292,7 @@ color: #222222!important;
 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #C09DFF;
+    color: #D56375;
 }
 
 footer {
@@ -1239,8 +1318,8 @@ h3.section-subheading.countries {
   color: #585858!important;
 }
 #mainNav .navbar-toggler:hover {
-  background-color: #C09DFF;
-  color: #ffffff;
+  /*background-color: #D56375;*/
+  color: #D56375;
 }
 #mainNav .navbar-toggler:focus {
   outline: none;
@@ -1255,11 +1334,16 @@ ul li {
 }
 
 .bg-post-work {
-  background-image: url(../pics/IMG_2037.JPG);
+  background-image: url(../img/background2.jpg);
 }
 .bg-post-edu {
-  background-image: url(../img/capetownFull.jpg);
+  background-image: url(../img/background3.jpg);
 }
+
+.bg-post-travel {
+  background-image: url(../img/background4.jpg);
+}
+
 .bg-fixed {
   background-attachment: fixed;
   background-size: cover;
@@ -1288,10 +1372,10 @@ ul li {
 }
 
 #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link.active, #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link:hover {
-    color: #C09DFF;
+    color: #D56375;
 }
 #mainNav.navbar-shrink .navbar-brand.active, #mainNav.navbar-shrink .navbar-brand:active, #mainNav.navbar-shrink .navbar-brand:focus, #mainNav.navbar-shrink .navbar-brand:hover {
-    color: #C09DFF;
+    color: #D56375;
 }
 .btn.focus, .btn:focus {
     outline: 0;
@@ -1299,7 +1383,7 @@ ul li {
 }
 
 .btn-circle {
-    border: 2px solid white;
+    /*border: 2px solid white;*/
     border-radius: 100%;
     font-size: 30px;
     padding: .2rem 1rem;
@@ -1308,7 +1392,7 @@ ul li {
     margin-top: -45px;
 }
 .btn:hover {
-  border-color: #C09DFF;
+  /*border-color: #D56375;*/
 }
 .section-subheading {
   color: #ffffff!important;
@@ -1340,22 +1424,22 @@ ul li {
   height: 40px;
   width: 120px;
   color: white;
-  background-color: #C09DFF;
+  background-color: #D56375;
   border:none;
   border-radius: 3%;
 }
 .resume button a:hover{
-  color: #C09DFF;
+  color: #D56375;
 }
 .resume:hover button{
   /*background-color: #a88be0;*/
   background-color:transparent;
   transition-duration: .2s;
-  color: #C09DFF;
+  color: #D56375;
 
 }
 .resume:hover button a{
-  color: #C09DFF;
+  color: #D56375;
   transition-duration: .2s;
 
 }
@@ -1372,13 +1456,30 @@ button:focus {
   padding-bottom: 25px;
 }
 .portfolio-modal .modal-content a:hover, .portfolio-modal .modal-content a:focus {
-  color: #C09DFF;
+  color: #D56375;
 }
 .col-2 {
   padding-left:0px;
 }
 .right {
   text-align: right;
+}
+
+.email {
+  color: black!important;
+}
+
+.phone {
+  color:black!important;
+
+}
+
+a .fa-angle-double-down{
+  color: #9C2538!important;
+}
+
+a .fa-angle-double-down:hover{
+  color: #D56375!important;
 }
 
 
