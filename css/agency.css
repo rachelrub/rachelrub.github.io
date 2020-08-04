@@ -117,7 +117,7 @@ body {
       -webkit-transition: all 0.2s;
       -moz-transition: all 0.2s;
       transition: all 0.2s; 
-      color: #9C2538;}
+      color: #D56375;}
     #mainNav .navbar-nav .nav-item .nav-link {
       padding: 1.1em 1em !important; 
       color: #9C2538;}
@@ -151,14 +151,14 @@ header.masthead {
     padding-top: 0px;
     padding-bottom: 300px; 
     font-size: 45px;
-    color:#D56375;
+    color:#9C2538;
     font-family: 'Arial Black', sans-serif;
   }
 
 
     header.masthead .intro-text .intro-body {
       font-size:25px;
-      color:#C49405;
+      color:#A27B07;
       text-transform: uppercase; 
       font-family: "Source Sans Pro", Helvetica, sans-serif;
     }
@@ -213,18 +213,49 @@ header.masthead {
     #projects2 .portfolio-item .portfolio-link .img-fluid {
 
     }
-    #projects2 .portfolio-item .portfolio-link .portfolio-hover {
+    #projects2 .portfolio-item .portfolio-link .portfolio-hover.aminato {
       position: absolute;
       width: 100%;
       height: 100%;
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(213, 99, 117, 0.9);
+      opacity: 1;
+      background: rgba(196, 148, 5, 0.8);
       border-radius: 0; }
+    #projects2 .portfolio-item .portfolio-link .portfolio-hover.plane {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(1, 142, 151, 0.8);
+      border-radius: 0; }
+    #projects2 .portfolio-item .portfolio-link .portfolio-hover.anivata {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(237, 177, 122, 0.8);
+      border-radius: 0; }
+    #projects2 .portfolio-item .portfolio-link .portfolio-hover.clarify {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(213, 99, 117, 0.8);
+      border-radius: 0; }
+
       #projects2 .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
+        opacity: 0; }
       #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
@@ -275,18 +306,71 @@ header.masthead {
     #projects .portfolio-item .portfolio-link .img-fluid {
 
     }
-    #projects .portfolio-item .portfolio-link .portfolio-hover {
+    #projects .portfolio-item .portfolio-link .portfolio-hover.flinto {
       position: absolute;
       width: 100%;
       height: 100%;
       -webkit-transition: all ease 0.5s;
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
-      opacity: 0;
-      background: rgba(213, 99, 117, 0.9);
+      opacity: 1;
+      background: rgba(196, 148, 5, 0.8);
       border-radius: 0; }
+    #projects .portfolio-item .portfolio-link .portfolio-hover.nyulondon {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(213, 99, 117, 0.8);
+      border-radius: 0; }
+    #projects .portfolio-item .portfolio-link .portfolio-hover.bitcoin {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(237, 177, 122, 0.8);
+      border-radius: 0; }
+    #projects .portfolio-item .portfolio-link .portfolio-hover.calendar {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(129, 56, 23, 0.8);
+      border-radius: 0; }
+    #projects .portfolio-item .portfolio-link .portfolio-hover.dash {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(1, 142, 151, 0.8);
+      border-radius: 0; }
+    #projects .portfolio-item .portfolio-link .portfolio-hover.thriftbid {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(196, 148, 5, 0.8);
+      border-radius: 0; }
+
+
+
       #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
-        opacity: 1; }
+        opacity: 0; }
       #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
@@ -1292,7 +1376,7 @@ color: #222222!important;
 
 }
 #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
-    color: #D56375;
+    color: #C49405;
 }
 
 footer {
