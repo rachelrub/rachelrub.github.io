@@ -106,7 +106,7 @@ body {
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #9C2538; }
 #mainNav .navbar-brand {
-    color: #A27B07;
+    color: #9C2538;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     font-size: 100%; }
@@ -131,7 +131,7 @@ body {
     #mainNav.navbar-shrink {
       padding-top: 0;
       padding-bottom: 0;
-      background-color: #9C2538;
+      background-color: #fff;
       color: #9C2538!important; }
       #mainNav.navbar-shrink .navbar-brand {
         font-size: 1.25em;
@@ -155,8 +155,11 @@ header.masthead {
 
   }
   header.masthead .intro-text {
-    padding-top: 0px;
-    padding-bottom: 300px; 
+    padding-top: 35px;
+    padding-bottom: 30px;
+     
+    text-anchor:middle;
+    alignment-baseline: middle; 
     font-size: 45px;
     color:#9C2538;
     /*color: rgb(1, 142, 151);*/
@@ -1451,7 +1454,7 @@ ul li {
 .most-height {
     height: 450px;
   }
-#mainNav.navbar-shrink {
+#mainNav.ink {
   color: #9C2538;
   background-color: white;
 /*  border-bottom: 1px solid #585858;*/
