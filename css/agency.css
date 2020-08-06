@@ -30,13 +30,18 @@ strong {
 
 h1,
 h2,
-h3,
 h4,
 h5,
 h6 {
   font-weight: 700;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase; }
+
+h3 {
+  font-weight: normal;
+  opacity: .8;
+  padding: 15px;
+}
 
 section {
 /*  padding: 100px 0; */}
@@ -234,7 +239,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(196, 148, 5, 0.8);
+      background: rgba(196, 148, 5, 0.9);
       border-radius: 0; }
     #projects2 .portfolio-item .portfolio-link .portfolio-hover.plane {
       position: absolute;
@@ -244,7 +249,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(1, 142, 151, 0.8);
+      background: rgba(1, 142, 151, 0.9);
       border-radius: 0; }
     #projects2 .portfolio-item .portfolio-link .portfolio-hover.anivata {
       position: absolute;
@@ -254,7 +259,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(237, 177, 122, 0.8);
+      background: rgba(237, 177, 122, 0.9);
       border-radius: 0; }
     #projects2 .portfolio-item .portfolio-link .portfolio-hover.clarify {
       position: absolute;
@@ -264,7 +269,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(213, 99, 117, 0.8);
+      background: rgba(213, 99, 117, 0.9);
       border-radius: 0; }
 
       #projects2 .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -327,7 +332,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(196, 148, 5, 0.8);
+      background: rgba(196, 148, 5, 0.9);
       border-radius: 0; }
     #projects .portfolio-item .portfolio-link .portfolio-hover.nyulondon {
       position: absolute;
@@ -337,7 +342,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(213, 99, 117, 0.8);
+      background: rgba(213, 99, 117, 0.9);
       border-radius: 0; }
     #projects .portfolio-item .portfolio-link .portfolio-hover.bitcoin {
       position: absolute;
@@ -347,7 +352,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(237, 177, 122, 0.8);
+      background: rgba(237, 177, 122, 0.9);
       border-radius: 0; }
     #projects .portfolio-item .portfolio-link .portfolio-hover.calendar {
       position: absolute;
@@ -357,7 +362,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(129, 56, 23, 0.8);
+      background: rgba(129, 56, 23, 0.9);
       border-radius: 0; }
     #projects .portfolio-item .portfolio-link .portfolio-hover.dash {
       position: absolute;
@@ -367,7 +372,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(1, 142, 151, 0.8);
+      background: rgba(1, 142, 151, 0.9);
       border-radius: 0; }
     #projects .portfolio-item .portfolio-link .portfolio-hover.thriftbid {
       position: absolute;
@@ -377,7 +382,7 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 1;
-      background: rgba(196, 148, 5, 0.8);
+      background: rgba(196, 148, 5, 0.9);
       border-radius: 0; }
 
 
