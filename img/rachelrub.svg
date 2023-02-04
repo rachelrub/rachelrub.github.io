@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="720px" height="720px" viewBox="0 0 720 720" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>rachelrub</title>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="720" height="720"></rect>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-5999.000000, -53.000000)">
+            <g id="rachelrub" transform="translate(5999.000000, 53.000000)">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <g id="Group-23" mask="url(#mask-2)">
+                    <g transform="translate(20.000000, 20.000000)">
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="0" y="0" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="0" y="227" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="0" y="454" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="227" y="0" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="454" y="0" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="227" y="227" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="454" y="227" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="227" y="454" width="227" height="227"></rect>
+                        <rect id="Rectangle" stroke="#382E36" stroke-width="15" x="454" y="454" width="227" height="227"></rect>
+                        <text id="R" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="43" y="200" fill="#382E36">R</tspan>
+                        </text>
+                        <text id="A" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="270" y="200" fill="#382E36">A</tspan>
+                        </text>
+                        <text id="C" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="497" y="200" fill="#382E36">C</tspan>
+                        </text>
+                        <text id="H" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="43" y="430" fill="#382E36">H</tspan>
+                        </text>
+                        <text id="E" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="270" y="430" fill="#382E36">E</tspan>
+                        </text>
+                        <text id="L" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="497" y="430" fill="#382E36">L</tspan>
+                        </text>
+                        <text id="R" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="43" y="654" fill="#382E36">R</tspan>
+                        </text>
+                        <text id="U" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="270" y="654" fill="#382E36">U</tspan>
+                        </text>
+                        <text id="B" stroke="none" font-family="Avenir-Black, Avenir" font-size="200" font-weight="700" line-spacing="240" letter-spacing="110">
+                            <tspan x="497" y="654" fill="#382E36">B</tspan>
+                        </text>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
