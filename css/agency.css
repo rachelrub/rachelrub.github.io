@@ -288,21 +288,24 @@ header.masthead {
 .service-heading {
   margin: 15px 0;
   text-transform: none; }
-#projects2 .portfolio-item {
+
+
+/*
+
+#design2 .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
-  #projects2 .portfolio-item .portfolio-link {
+  #design2 .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
     cursor: pointer; 
     }
-        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        #design2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
-/*        top: 50%;*/
         width: 100%;
         height: 100%;
         margin-top: -12px;
@@ -317,51 +320,52 @@ header.masthead {
         cursor: pointer;
 
          }
-        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+        #design2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
           margin-top: -12px; }
-        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+        #design2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #design2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
           margin: 0; }
 
 
 
-  #projects2 .portfolio-item .portfolio-caption {
+  #design2 .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
     background-color: white;
     border-radius: 0; }
-    #projects2 .portfolio-item .portfolio-caption h4 {
+    #design2 .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
-    #projects2 .portfolio-item .portfolio-caption p {
+    #design2 .portfolio-item .portfolio-caption p {
       font-size: 16px;
       font-style: italic;
       margin: 0;
       font-family: 'Avenir', sans-serif; }
 
-#projects2 * {
+#design2 * {
   z-index: 2; }
 
 
+*/
 
 
-#projects .portfolio-item {
+#design .portfolio-item {
   right: 0;
   margin: 0 0 15px;
 }
-  #projects .portfolio-item .portfolio-link {
+  #design .portfolio-item .portfolio-link {
     position: relative;
     display: block;
     max-width: 400px;
     margin: 0 auto;
 /*    cursor: pointer; */
     }
-    #projects .portfolio-item .portfolio-link .img-fluid {
+    #design .portfolio-item .portfolio-link .img-fluid {
 
     }
-    #projects .portfolio-item .portfolio-link .portfolio-hover {
+    #design .portfolio-item .portfolio-link .portfolio-hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -374,7 +378,7 @@ header.masthead {
 
 
 
-    #projects .portfolio-item .portfolio-link .portfolio-hover:hover {
+    #design .portfolio-item .portfolio-link .portfolio-hover:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -385,7 +389,103 @@ header.masthead {
       background: rgba(255, 255, 2555, 0.8);
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.saarav:hover {
+
+
+
+    
+
+      #design .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: #382E36;
+        font-family: "avenir-heavy"
+         }
+
+
+        #design .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+          margin-top: -12px; }
+        #design .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #design .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+          margin: 0; }
+  #design .portfolio-item .portfolio-caption {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 25px;
+    text-align: center;
+    background-color: white;
+    border-radius: 0; }
+    #design .portfolio-item .portfolio-caption h4 {
+      margin: 0;
+      text-transform: none; }
+    #design .portfolio-item .portfolio-caption p {
+      font-size: 16px;
+      font-style: italic;
+      margin: 0;
+      font-family: 'Avenir', sans-serif; }
+
+/*
+      #design2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+        font-size: 20px;
+        position: absolute;
+        top: 50%;
+        width: 100%;
+        height: 20px;
+        margin-top: -12px;
+        text-align: center;
+        color: #382E36;
+        font-family: "avenir-heavy"
+         }*/
+
+#design * {
+  z-index: 2; }
+
+
+
+
+#tattoos .portfolio-item {
+  right: 0;
+  margin: 0 0 15px;
+}
+  #tattoos .portfolio-item .portfolio-link {
+    position: relative;
+    display: block;
+    max-width: 400px;
+    margin: 0 auto;
+/*    cursor: pointer; */
+    }
+    #tattoos .portfolio-item .portfolio-link .img-fluid {
+
+    }
+    #tattoos .portfolio-item .portfolio-link .portfolio-hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 0;
+      background: rgba(255, 255, 2555, 0);
+      border-radius: 0; }
+
+
+
+    #tattoos .portfolio-item .portfolio-link .portfolio-hover:hover {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all ease 0.5s;
+      -moz-transition: all ease 0.5s;
+      transition: all ease 0.5s;
+      opacity: 1;
+      background: rgba(255, 255, 2555, 0.8);
+      border-radius: 0; }
+
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.saarav:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -399,7 +499,7 @@ header.masthead {
       border-radius: 0; }
 
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.jonah:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.jonah:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -412,7 +512,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.jordan:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.jordan:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -425,7 +525,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.molly:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.molly:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -438,7 +538,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.meg:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.meg:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -451,7 +551,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.dani:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.dani:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -464,7 +564,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.foster:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.foster:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -477,7 +577,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.robin:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.robin:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -490,7 +590,7 @@ header.masthead {
       background-size: contain;
       border-radius: 0; }
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover.enzo:hover {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover.enzo:hover {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -507,7 +607,7 @@ header.masthead {
 
     
 
-      #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+      #tattoos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
         top: 50%;
@@ -520,29 +620,29 @@ header.masthead {
          }
 
 
-        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
+        #tattoos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
           margin-top: -12px; }
-        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
-        #projects .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
+        #tattoos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
+        #tattoos .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h4 {
           margin: 0; }
-  #projects .portfolio-item .portfolio-caption {
+  #tattoos .portfolio-item .portfolio-caption {
     max-width: 400px;
     margin: 0 auto;
     padding: 25px;
     text-align: center;
     background-color: white;
     border-radius: 0; }
-    #projects .portfolio-item .portfolio-caption h4 {
+    #tattoos .portfolio-item .portfolio-caption h4 {
       margin: 0;
       text-transform: none; }
-    #projects .portfolio-item .portfolio-caption p {
+    #tattoos .portfolio-item .portfolio-caption p {
       font-size: 16px;
       font-style: italic;
       margin: 0;
       font-family: 'Avenir', sans-serif; }
 
-
-      #projects2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+/*
+      #tattoos2 .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
         font-size: 20px;
         position: absolute;
         top: 50%;
@@ -552,10 +652,12 @@ header.masthead {
         text-align: center;
         color: #382E36;
         font-family: "avenir-heavy"
-         }
+         }*/
 
-#projects * {
+#tattoos * {
   z-index: 2; }
+
+
 
 
 
