@@ -85,6 +85,10 @@ img::-moz-selection {
 body {
   -webkit-tap-highlight-color: #ffffff; }
 
+#disclaimer {
+/*  text-align: left;*/
+}
+
 #mainNav {
   background-color: #ffffff;
 /*  border-bottom: 1px solid #585858;*/
@@ -170,7 +174,7 @@ header.masthead {
   }
 
   header.masthead .outro-text {
-    padding-top: 25px;
+    padding-top: 25%;
     padding-bottom: 0px;
      
     text-anchor:start;
@@ -1254,15 +1258,15 @@ header.masthead {
 
 .fudge {
   text-align: center;
-  margin-top: 75px;
-
   width: 100%;
-  padding: 20px;
+  padding: 40px;
 
 }
 
 section#contact {
   background-color: #ffffff;
+  text-align: center;
+  margin-top: 70px;
   }
 
   section#contact p {
@@ -1271,7 +1275,9 @@ section#contact {
 
   }
   section#contact .form-group {
-    margin-bottom: 25px; }
+/*    margin-bottom: 25px; */
+
+  }
     section#contact .form-group input,
     section#contact .form-group textarea {
       padding: 20px; }
